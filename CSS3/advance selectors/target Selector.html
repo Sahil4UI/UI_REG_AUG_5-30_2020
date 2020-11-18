@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            display: inline-block;
+            padding: 8px 12px;
+            color: #fff;
+            background-color: #000;
+            text-decoration: none;
+        }
+        #form{
+            display: none;
+        }
+        #form:target
+        {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <a href="#form">LOGIN NOW</a>
+    <div id="form">
+        <form action="">
+            <table>
+                <tr>
+                    <td>Name :</td>
+                    <td><input type="text" name="" id="" required placeholder="Enter your name :"></td>
+                </tr>
+    
+    
+                <tr>
+                    <td>Password :</td>
+                    <td><input type="password" name="" id="" disabled checked></td>
+                </tr>
+    
+    
+    
+                <tr>
+                    <td>Email :</td>
+                    <td><input type="email" name="" id=""></td>
+                </tr>
+    
+    
+    
+                <tr>
+                    <td>Age :</td>
+                    <td><input type="number" name="" id="" min="18" max="70"></td>
+                </tr>
+    
+    
+    
+                <tr>
+                    <td><input type="submit" value="login"></td>
+                    <td><input type="reset" value="reset"></td>
+                </tr>
+
+            </table>
+        </form>
+    
+    
+    </div>
+</body>
+</html>
